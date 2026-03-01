@@ -48,3 +48,7 @@ def promotions(): return render_template('page.html', title="Promotions")
 def events(): return render_template('page.html', title="Events")
 @app.route('/reviews')
 def reviews(): return render_template('page.html', title="Reviews")
+
+if __name__ == '__main__':
+    init_db()
+    app.run(debug=True)
