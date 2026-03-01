@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1 class="text-3xl font-bold mb-4">Add Menu Item</h1>
+<form method="POST" class="flex flex-col gap-4 w-1/2">
+    <input type="text" name="name" placeholder="Menu Name" class="p-2 border rounded border-gray-300" required>
+    <input type="number" name="price" placeholder="Price" class="p-2 border rounded border-gray-300" required>
+    <button type="submit" class="bg-blue-600 text-white p-2 rounded hover:bg-blue-700">Save</button>
+</form>
+{% endblock %}
