@@ -36,3 +36,7 @@ def add():
 def about(): return render_template('page.html', title="About Us")
 @app.route('/contact')
 def contact(): return render_template('page.html', title="Contact")
+@app.route('/location')
+def location(): return render_template('page.html', title="Location")
+@app.route('/faq')
+def faq(): return render_template('page.html', title="FAQ")
