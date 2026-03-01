@@ -1,2 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
+<h1 class="text-3xl font-bold mb-4">Cafe Menu</h1>
+<ul class="list-disc pl-5">
+    {% for item in items %}
+    <li class="mb-2 text-lg">{{ item[1] }} - {{ item[2] }} THB</li>
+    {% endfor %}
