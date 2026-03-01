@@ -32,5 +32,3 @@ python app.py
 8. **Promotions (`/promotions`)**: ข่าวสารและโปรโมชั่น
 9. **Events (`/events`)**: กิจกรรมพิเศษที่จัดขึ้น
 10. **Reviews (`/reviews`)**: รีวิวและความคิดเห็นจากลูกค้า
-
-123
