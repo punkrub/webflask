@@ -1,0 +1,11 @@
+from flask import Flask, render_template, request, redirect, url_for
+import sqlite3
+
+app = Flask(__name__)
+
+def init_db():
+    conn = sqlite3.connect('database.db')
+    c = conn.cursor()
+    c.execute('CREATE TABLE IF NOT EXISTS menu (id INTEGER PRIMARY KEY, name TEXT, price REAL)')
+    conn.commit()
+    conn.close()
