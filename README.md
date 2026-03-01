@@ -9,4 +9,9 @@
 
 ## วิธีการรันระบบ
 1. ติดตั้ง Flask
+
 pip install Flask
+
+2. รันเซิร์ฟเวอร์
+
+python app.py
