@@ -31,3 +31,8 @@ def add():
         conn.close()
         return redirect(url_for('index'))
     return render_template('add.html')
+
+@app.route('/about')
+def about(): return render_template('page.html', title="About Us")
+@app.route('/contact')
+def contact(): return render_template('page.html', title="Contact")
