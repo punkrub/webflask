@@ -15,3 +15,5 @@ pip install Flask
 2. รันเซิร์ฟเวอร์
 
 python app.py
+
+3. เปิด Web Browser ไปที่ http://127.0.0.1:5000
